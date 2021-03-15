@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    padding-bottom: 3rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.video {
+    height: inherit;
+}
+
+.speed {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    width: 6vw;
+    margin-left: 2rem;
+    border-radius: 1vw 4vw;
+    background-color: yellow;
+    overflow: hidden;
+}
+
+.speed-count {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    position: absolute;
+    top: calc(50% - 1rem);
+}
+
+.speed-bar {
+    background-color: red;
+    height: 11%;
+}
