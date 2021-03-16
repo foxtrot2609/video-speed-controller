@@ -7,7 +7,7 @@ function handleMove(e) {
     const y = e.pageY - this.offsetTop;
     const percent = y / this.offsetHeight;
     const min = 0.5;
-    const max = 5;
+    const max = 4;
     const playbackRate = percent * (max - min) + min;
     bar.style.height = percent * 100 + "%";
     video.playbackRate = playbackRate;
