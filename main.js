@@ -3,8 +3,6 @@ const speedCount = speed.querySelector(".speed-count");
 const bar = speed.querySelector(".speed-bar");
 const video = document.querySelector(".video");
 
-
-
 function handleMove(e) {
     const y = e.pageY - this.offsetTop;
     const percent = y / this.offsetHeight;
